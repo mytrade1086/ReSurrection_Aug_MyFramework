@@ -1,0 +1,4 @@
+# Created at 2020-10-19T09:18:26.722
+Boot Manifest-JAR contains absolute paths in classpath 'D:\ResurrectionJavaAug\ReSurrection_Aug_MyFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

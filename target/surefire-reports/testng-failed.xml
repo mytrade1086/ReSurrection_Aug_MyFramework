@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="cases.RegistrationPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="extent_init"/>
+          <include name="exten_flush"/>
+          <include name="Registration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- cases.RegistrationPageTest -->
+      <class name="cases.LandingPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="extent_init"/>
+          <include name="exten_flush"/>
+          <include name="dummy"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- cases.LandingPageTest -->
+      <class name="cases.SignInPageTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="extent_init"/>
+          <include name="exten_flush"/>
+          <include name="two"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- cases.SignInPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

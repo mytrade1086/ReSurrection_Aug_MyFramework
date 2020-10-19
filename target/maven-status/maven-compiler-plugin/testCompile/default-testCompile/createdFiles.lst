@@ -1,0 +1,5 @@
+cases\RegistrationPageTest.class
+cases\LandingPageTest.class
+dataprovider.class
+cases\SignInPageTest.class
+listeners\Listener.class

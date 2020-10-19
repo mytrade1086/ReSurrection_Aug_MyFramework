@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79554" started-at="2020-10-19T09:18:28 IST" finished-at="2020-10-19T09:19:48 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="79554" started-at="2020-10-19T09:18:28 IST" finished-at="2020-10-19T09:19:48 IST">
+      <class name="cases.LandingPageTest">
+        <test-method status="PASS" signature="extent_init()[pri:0, instance:cases.LandingPageTest@335eadca]" name="extent_init" is-config="true" duration-ms="359" started-at="2020-10-19T09:18:28 IST" finished-at="2020-10-19T09:18:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extent_init -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:cases.LandingPageTest@335eadca]" name="setUP" is-config="true" duration-ms="17850" started-at="2020-10-19T09:18:29 IST" finished-at="2020-10-19T09:18:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="dummy()[pri:0, instance:cases.LandingPageTest@335eadca]" name="dummy" duration-ms="628" started-at="2020-10-19T09:18:47 IST" finished-at="2020-10-19T09:18:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dummy -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:cases.LandingPageTest@335eadca]" name="tearDown" is-config="true" duration-ms="1122" started-at="2020-10-19T09:18:49 IST" finished-at="2020-10-19T09:18:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dummy status=SUCCESS method=LandingPageTest.dummy()[pri:0, instance:cases.LandingPageTest@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="exten_flush()[pri:0, instance:cases.LandingPageTest@335eadca]" name="exten_flush" is-config="true" duration-ms="1218" started-at="2020-10-19T09:19:47 IST" finished-at="2020-10-19T09:19:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exten_flush -->
+      </class> <!-- cases.LandingPageTest -->
+      <class name="cases.RegistrationPageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:cases.RegistrationPageTest@eec5a4a]" name="setUP" is-config="true" duration-ms="16040" started-at="2020-10-19T09:19:21 IST" finished-at="2020-10-19T09:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="Registration()[pri:0, instance:cases.RegistrationPageTest@eec5a4a]" name="Registration" duration-ms="8154" started-at="2020-10-19T09:19:37 IST" finished-at="2020-10-19T09:19:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:cases.RegistrationPageTest@eec5a4a]" name="tearDown" is-config="true" duration-ms="810" started-at="2020-10-19T09:19:46 IST" finished-at="2020-10-19T09:19:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Registration status=SUCCESS method=RegistrationPageTest.Registration()[pri:0, instance:cases.RegistrationPageTest@eec5a4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cases.RegistrationPageTest -->
+      <class name="cases.SignInPageTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:cases.SignInPageTest@210366b4]" name="setUP" is-config="true" duration-ms="20803" started-at="2020-10-19T09:18:50 IST" finished-at="2020-10-19T09:19:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="two()[pri:0, instance:cases.SignInPageTest@210366b4]" name="two" duration-ms="9087" started-at="2020-10-19T09:19:11 IST" finished-at="2020-10-19T09:19:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- two -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:cases.SignInPageTest@210366b4]" name="tearDown" is-config="true" duration-ms="887" started-at="2020-10-19T09:19:20 IST" finished-at="2020-10-19T09:19:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=two status=SUCCESS method=SignInPageTest.two()[pri:0, instance:cases.SignInPageTest@210366b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cases.SignInPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
